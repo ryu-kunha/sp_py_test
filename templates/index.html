@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>야 너두 파이썬?</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐍 야 너두 파이썬?</h1>
+
+    <!-- 1. 파이썬 문제 제시 블록 -->
+    <section id="question-block">
+      <h2>문제를 보고 출력 결과를 예측해보세요!</h2>
+      <pre id="python-question" class="code-block">
+        <!-- 여기에 파이썬 코드가 들어갈 예정 -->
+      </pre>
+    </section>
+
+    <!-- 2. 정답 입력칸 -->
+    <section id="answer-block">
+      <input type="text" id="answer-input" placeholder="출력 결과를 입력하세요">
+      <button id="submit-answer">제출</button>
+    </section>
+
+    <!-- 3. 정답 여부 출력 블록 -->
+    <section id="result-block">
+      <p id="result-message">정답을 제출하면 결과가 여기에 표시됩니다.</p>
+    </section>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

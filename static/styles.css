@@ -1,0 +1,82 @@
+/* 전체 배경과 글꼴 설정 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #306998, #FFD43B);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 전체 감싸는 박스 */
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* 제목 */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #FFD43B;
+}
+
+/* 소제목 */
+h2 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #AACCFF;
+}
+
+/* 문제 표시 영역 */
+.code-block {
+  background-color: #1e1e1e;
+  color: #00FFAA;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: Consolas, monospace;
+  white-space: pre-wrap;
+  font-size: 1.1em;
+}
+
+/* 입력칸 */
+#answer-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* 제출 버튼 */
+#submit-answer {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #FFD43B;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-answer:hover {
+  background-color: #f0c530;
+}
+
+/* 결과 메시지 */
+#result-message {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
